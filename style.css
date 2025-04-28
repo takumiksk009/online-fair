@@ -1,16 +1,15 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: #ffffff; /* 完全真っ白背景 */
+  background: #ffffff; /* 真っ白背景 */
   color: #2c3e50;
 }
 
 .main-header {
-  background: linear-gradient(135deg, #f39c12, #e67e22); /* オレンジ系グラデーション */
+  background: linear-gradient(135deg, #f39c12, #e67e22); /* オレンジグラデーション */
   color: #fff;
   text-align: center;
-  padding: 2rem 1rem 1rem;
-  position: relative;
+  padding: 2rem 1rem;
 }
 
 .main-header h1 {
@@ -24,22 +23,8 @@ body {
   margin-top: 0.5rem;
   font-size: 1.3rem;
   font-weight: bold;
-  color: #e74c3c; /* 明るい赤！！ */
+  color: #f1c40f; /* 明るい黄色！ */
   text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-}
-
-.flags {
-  width: 100%;
-  height: 40px;
-  background: repeating-linear-gradient(
-    45deg,
-    #3498db, #3498db 10px,
-    #e74c3c 10px, #e74c3c 20px,
-    #2ecc71 20px, #2ecc71 30px,
-    #f1c40f 30px, #f1c40f 40px
-  );
-  background-size: 80px 40px;
-  margin-top: 1rem;
 }
 
 .home-section {
@@ -94,7 +79,7 @@ body {
   object-fit: contain;
 }
 
-/* カード枠色とホバー時の背景 */
+/* カードの枠色とホバー時の背景 */
 .card-blue   { border-color: #3498db; }
 .card-green  { border-color: #2ecc71; }
 .card-orange { border-color: #e67e22; }
