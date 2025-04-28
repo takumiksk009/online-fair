@@ -59,11 +59,17 @@ body {
 
 .card-img {
   width: 100%;
-  height: 180px; /* ここで高さを統一！ */
-  object-fit: cover; /* 切り取りながらピシッと表示 */
+  height: 180px; /* 通常は高さ統一 */
+  object-fit: cover;
   border-radius: 8px;
   margin-bottom: 1rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* 特別ルール：拡大しない画像 */
+.no-resize {
+  height: auto;
+  object-fit: contain;
 }
 
 /* カラーバリエーション */
