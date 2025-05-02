@@ -1,11 +1,11 @@
 @echo off
 cd /d "%~dp0"
-echo === GitHubæ›´æ–°ã‚’é–‹å§‹ã—ã¾ã™ ===
+echo === GitHubXV‚ğŠJn‚µ‚Ü‚· ===
 
 git add .
-git commit -m "ä¸€æ‹¬æ›´æ–°ï¼šHTMLã¨CSSãªã©ã‚’å¤‰æ›´"
+git commit -m "ˆêŠ‡XVFHTML‚ÆCSS‚È‚Ç‚ğ•ÏX"
 git push
 
 echo.
-echo === GitHubã¸ãƒ—ãƒƒã‚·ãƒ¥å®Œäº†ï¼ ===
+echo === GitHub‚Ö‚ÌƒvƒbƒVƒ…‚ªŠ®—¹‚µ‚Ü‚µ‚½I ===
 pause
