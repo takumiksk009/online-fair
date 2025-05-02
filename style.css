@@ -1,12 +1,14 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: #ffffff; /* 真っ白背景 */
+  background: url("images/haikei.png") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
   color: #2c3e50;
 }
 
 .main-header {
-  background: linear-gradient(135deg, #f39c12, #e67e22); /* オレンジグラデーション */
+  background: linear-gradient(135deg, rgba(243, 156, 18, 0.9), rgba(230, 126, 34, 0.9));
   color: #fff;
   text-align: center;
   padding: 2rem 1rem;
@@ -16,15 +18,15 @@ body {
   margin: 0;
   font-size: 2.4rem;
   font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .catch-copy {
   margin-top: 0.5rem;
   font-size: 1.3rem;
   font-weight: bold;
-  color: #f1c40f; /* 明るい黄色！ */
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  color: #f1c40f;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .home-section {
@@ -47,7 +49,7 @@ body {
 }
 
 .home-card {
-  background: #ffffff;
+  background: #ffffffe6; /* 半透明にして背景なじませる */
   padding: 1.5rem;
   border-radius: 12px;
   border: 2px solid #ccc;
@@ -68,7 +70,7 @@ body {
   height: 180px;
   border-radius: 8px;
   margin-bottom: 1rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 .resize-cover {
@@ -79,7 +81,7 @@ body {
   object-fit: contain;
 }
 
-/* カードの枠色とホバー時の背景 */
+/* 枠とホバーの色調整 */
 .card-blue   { border-color: #3498db; }
 .card-green  { border-color: #2ecc71; }
 .card-orange { border-color: #e67e22; }
@@ -103,6 +105,6 @@ footer {
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
-  background-color: #f9f9f9;
+  background-color: #ffffffcc;
   color: #2c3e50;
 }
